@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Vérification d'entreprise - SIRET</title>
+</head>
+<body>
+
+<h2>Vérification d'entreprise avec un SIRET</h2>
+<form action="#" method="post">
+    <label for="siret">Numéro SIRET :</label>
+    <input type="text" id="siret" name="siret" required pattern="\d{14}" title="Le SIRET doit contenir 14 chiffres.">
+    <input type="submit" value="Soumettre">
+</form>
+
+<div id="result"></div>
+<div id="resultat"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
