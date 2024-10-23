@@ -2,7 +2,7 @@
 
 Cette application web permet de rechercher des informations détaillées sur une entreprise à partir de son numéro SIRET. En utilisant l'API de l'INSEE, l'application récupère des données pertinentes et calcule également le numéro de TVA intracommunautaire associé à l'entreprise.
 
-## Table des Matières
+## Sommaires
 
 - [Technologies Utilisées](#technologies-utilisées)
 - [Fonctionnalités](#fonctionnalités)
